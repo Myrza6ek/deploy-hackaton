@@ -1,0 +1,23 @@
+#form-add {
+  width: 55%;
+  display: flex;
+  flex-direction: column;
+  /* justify-content: space-between; */
+  /* align-content: space-around; */
+
+  margin: 20px auto;
+}
+
+.outlined-basic {
+  height: 55px;
+  background-color: aliceblue;
+  border-radius: 5px;
+  margin: 10px 0;
+}
+
+#add-title {
+  margin: 20px auto;
+  width: auto;
+  font-size: 30px;
+  text-align: center;
+}

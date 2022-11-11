@@ -1,0 +1,92 @@
+/* .body {
+  background-image: url("https://img.freepik.com/premium-photo/eco-friendly-bamboo-tooth-brush-zero-waste-set-flat-lay-top-view-copy-space_103882-51.jpg?w=900");
+
+  width: 96%;
+} */
+
+.bg {
+  background: linear-gradient(60deg, #077275 0, #69c5b19c);
+}
+.bg1 {
+  background: linear-gradient(20deg, #077275 0, #69c5b19d);
+}
+/* .function1 div {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+} */
+/* .function1 {
+  margin-top: 20px;
+  display: flex;
+
+  justify-content: space-between;
+}
+*/
+.function_1__grid {
+  margin: 20px 0;
+  width: 80%;
+}
+
+/* .function1 h4 {
+  font-size: 18px;
+  margin-bottom: 10px;
+  width: 100%;
+} */
+/* span {
+  width: 220px;
+} */
+.text1 {
+  display: flex;
+
+  flex-wrap: wrap;
+  justify-content: center;
+  background-color: #077275;
+}
+
+.text1:hover {
+  /* box-sizing: border-xbox; */
+  /* position: absolute; */
+  /* width: 372px; */
+  /* height: 128px; */
+  /* background: #f6f3fc; */
+  /* border: 1px solid #f6f3fc; */
+  border-top: 4px ridge #e6e6e8;
+  border-radius: 12px 12px;
+  transition: 0.4s;
+}
+
+@media all and (max-width: 920px) {
+  .img {
+    display: none;
+  }
+}
+@media all and (max-width: 530px) {
+  .grid_2 {
+    display: flex !important;
+    flex-direction: column !important;
+
+    /* height: 800px; */
+
+    /* align-items: space-between; */
+    justify-content: space-between !important;
+    /* margin-top: 20px !important; */
+  }
+  .text1 {
+    margin: 10px 0 !important;
+  }
+
+  .bg1 {
+    height: 539px !important;
+  }
+}
+@media all and (max-width: 750px) {
+  .box1 {
+    display: none;
+  }
+}
+@media all and (max-width: 600px) {
+  .grid_about {
+    display: flex;
+    flex-direction: column !important;
+  }
+}
