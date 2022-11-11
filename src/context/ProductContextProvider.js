@@ -4,7 +4,7 @@ import { useLocation, useNavigate } from "react-router-dom";
 
 export const productContext = createContext();
 
-const API = "http://localhost:8000/dentalProducts";
+const API = "https://dental-shop-hackaton.herokuapp.com/dentalProducts";
 
 const INIT_STATE = {
   product: null,
